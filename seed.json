@@ -1,0 +1,326 @@
+{
+ "org": {
+  "name": "Test Org",
+  "discord_guild_id": "TEST_GUILD_ID",
+  "patch": "classic_era",
+  "realm": "Whitemane",
+  "faction": "Alliance"
+ },
+ "teams": [
+  {
+   "slug": "vanguard",
+   "name": "Vanguard",
+   "size": 40,
+   "zones": [
+    "Naxxramas",
+    "Onyxia's Lair"
+   ],
+   "raid_days": [
+    "Tue",
+    "Thu"
+   ],
+   "timezone": "America/New_York",
+   "channels": {
+    "signup": "TEST_CH_VANGUARD_SIGNUPS",
+    "officer": "TEST_CH_VANGUARD_OFFICERS",
+    "sr_token_thread": "TEST_TH_VANGUARD_SR",
+    "ui_updates": "TEST_CH_UI_UPDATES"
+   },
+   "loot_config": {
+    "method": "sr_roll",
+    "attendance_window_weeks": 6,
+    "weights": {
+     "attendance": 0.6,
+     "recency": 0.3,
+     "wishlist_rank": 0.1
+    }
+   }
+  },
+  {
+   "slug": "ember",
+   "name": "Ember",
+   "size": 20,
+   "zones": [
+    "Zul'Gurub",
+    "Ruins of Ahn'Qiraj"
+   ],
+   "raid_days": [
+    "Wed"
+   ],
+   "timezone": "America/New_York",
+   "channels": {
+    "signup": "TEST_CH_EMBER_SIGNUPS",
+    "officer": "TEST_CH_EMBER_OFFICERS",
+    "sr_token_thread": "TEST_TH_EMBER_SR",
+    "ui_updates": "TEST_CH_UI_UPDATES"
+   },
+   "loot_config": {
+    "method": "priority_points",
+    "attendance_window_weeks": 8
+   }
+  },
+  {
+   "slug": "hearth",
+   "name": "Hearth",
+   "size": 10,
+   "zones": [
+    "Upper Blackrock Spire"
+   ],
+   "raid_days": [
+    "Sat"
+   ],
+   "timezone": "America/New_York",
+   "channels": {
+    "signup": "TEST_CH_HEARTH_SIGNUPS",
+    "officer": "TEST_CH_HEARTH_OFFICERS",
+    "sr_token_thread": "TEST_TH_HEARTH_SR",
+    "ui_updates": "TEST_CH_UI_UPDATES"
+   },
+   "loot_config": {
+    "method": "sr_roll",
+    "attendance_window_weeks": 4
+   }
+  }
+ ],
+ "zones": [
+  {
+   "name": "Naxxramas",
+   "size": 40,
+   "lockout_days": 7,
+   "credit_weight": 1.0,
+   "softres_instance_id": null
+  },
+  {
+   "name": "Onyxia's Lair",
+   "size": 40,
+   "lockout_days": 5,
+   "credit_weight": 0.5,
+   "softres_instance_id": null
+  },
+  {
+   "name": "Zul'Gurub",
+   "size": 20,
+   "lockout_days": 3,
+   "credit_weight": 0.5,
+   "softres_instance_id": null
+  },
+  {
+   "name": "Ruins of Ahn'Qiraj",
+   "size": 20,
+   "lockout_days": 3,
+   "credit_weight": 0.5,
+   "softres_instance_id": null
+  },
+  {
+   "name": "Upper Blackrock Spire",
+   "size": 10,
+   "lockout_days": 3,
+   "credit_weight": 0.25,
+   "softres_instance_id": null
+  }
+ ],
+ "raid_templates": [
+  {
+   "team": "vanguard",
+   "zone": "Naxxramas",
+   "name": "Naxx 40",
+   "seats": [
+    {
+     "role": "Tank",
+     "count": 4,
+     "criticality": "high"
+    },
+    {
+     "role": "Healer",
+     "count": 10,
+     "criticality": "medium"
+    },
+    {
+     "role": "Melee",
+     "count": 12,
+     "criticality": "low"
+    },
+    {
+     "role": "Ranged",
+     "count": 14,
+     "criticality": "low"
+    }
+   ]
+  },
+  {
+   "team": "vanguard",
+   "zone": "Onyxia's Lair",
+   "name": "Ony 40",
+   "seats": [
+    {
+     "role": "Tank",
+     "count": 4,
+     "criticality": "high"
+    },
+    {
+     "role": "Healer",
+     "count": 10,
+     "criticality": "medium"
+    },
+    {
+     "role": "Melee",
+     "count": 12,
+     "criticality": "low"
+    },
+    {
+     "role": "Ranged",
+     "count": 14,
+     "criticality": "low"
+    }
+   ]
+  },
+  {
+   "team": "hearth",
+   "zone": "Upper Blackrock Spire",
+   "name": "UBRS 10",
+   "seats": [
+    {
+     "role": "Tank",
+     "count": 1,
+     "criticality": "high"
+    },
+    {
+     "role": "Healer",
+     "count": 2,
+     "criticality": "medium"
+    },
+    {
+     "role": "Melee",
+     "count": 3,
+     "criticality": "low"
+    },
+    {
+     "role": "Ranged",
+     "count": 4,
+     "criticality": "low"
+    }
+   ]
+  }
+ ],
+ "boss_guides": [
+  {
+   "encounter": "Patchwerk",
+   "special_seats": [
+    {
+     "label": "Hateful Strike soaker 1",
+     "criticality": "high"
+    },
+    {
+     "label": "Hateful Strike soaker 2",
+     "criticality": "high"
+    },
+    {
+     "label": "Hateful Strike soaker 3",
+     "criticality": "high"
+    }
+   ],
+   "officer_notes": {
+    "Hateful Strike": "Top-3 HP melee soak; healers assign two per soaker."
+   }
+  },
+  {
+   "encounter": "Loatheb",
+   "special_seats": [
+    {
+     "label": "Spore group lead G1",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G2",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G3",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G4",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G5",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G6",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G7",
+     "criticality": "low"
+    },
+    {
+     "label": "Spore group lead G8",
+     "criticality": "low"
+    }
+   ],
+   "officer_notes": {
+    "Fungal Bloom": "Rotate spores by group; pop cooldowns inside the buff."
+   }
+  },
+  {
+   "encounter": "Thaddius",
+   "special_seats": [
+    {
+     "label": "Charge caller \u00b7 left",
+     "criticality": "high"
+    },
+    {
+     "label": "Charge caller \u00b7 right",
+     "criticality": "high"
+    }
+   ],
+   "officer_notes": {
+    "Polarity Shift": "Move by charge; stacking wrong charge kills the raid."
+   }
+  },
+  {
+   "encounter": "Onyxia",
+   "special_seats": [
+    {
+     "label": "Whelp tank",
+     "criticality": "high"
+    },
+    {
+     "label": "Add kiter",
+     "criticality": "high"
+    }
+   ],
+   "officer_notes": {
+    "Bellowing Roar": "Fear at phase 3; spread before Flame Breath."
+   }
+  }
+ ],
+ "social_edges": [
+  {
+   "a": "thorvik_fury",
+   "b": "pip_frost",
+   "kind": "must_with"
+  },
+  {
+   "a": "brann_bows",
+   "b": "orla_moon",
+   "kind": "prefer_with"
+  }
+ ],
+ "settings": {
+  "app_env": "test",
+  "game_patch": "classic_era",
+  "softres_auto_create": false,
+  "raid_helper_mode": "fixture",
+  "discord_mode": "sandbox",
+  "softres_mode": "fixture",
+  "logs_mode": "fixture",
+  "logs_ingest": false,
+  "reviews_enabled": true,
+  "llm_rephrase": false,
+  "sample_per_band": 20,
+  "band_min_n": 20
+ },
+ "items_seed_note": "Load the Era item names used in wishlists.xlsx into items (patch classic_era) with slot/class_mask from any Era item source; ids may be provisional in test."
+}

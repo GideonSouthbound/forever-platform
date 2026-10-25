@@ -1,0 +1,772 @@
+{
+ "guildId": "TEST_GUILD_ID",
+ "channels": {
+  "vanguard_signup": "TEST_CH_VANGUARD_SIGNUPS",
+  "vanguard_officer": "TEST_CH_VANGUARD_OFFICERS",
+  "vanguard_sr_token_thread": "TEST_TH_VANGUARD_SR",
+  "vanguard_ui_updates": "TEST_CH_UI_UPDATES",
+  "ember_signup": "TEST_CH_EMBER_SIGNUPS",
+  "ember_officer": "TEST_CH_EMBER_OFFICERS",
+  "ember_sr_token_thread": "TEST_TH_EMBER_SR",
+  "ember_ui_updates": "TEST_CH_UI_UPDATES",
+  "hearth_signup": "TEST_CH_HEARTH_SIGNUPS",
+  "hearth_officer": "TEST_CH_HEARTH_OFFICERS",
+  "hearth_sr_token_thread": "TEST_TH_HEARTH_SR",
+  "hearth_ui_updates": "TEST_CH_UI_UPDATES"
+ },
+ "users": [
+  {
+   "discordId": "TEST_00001",
+   "username": "dunmar_mt",
+   "displayName": "Dunmar",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00002",
+   "username": "maelis.heals",
+   "displayName": "Maelis",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00003",
+   "username": "thorvik_fury",
+   "displayName": "Thorvik",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00004",
+   "username": "kessa_daggers",
+   "displayName": "Kessa",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00005",
+   "username": "orla_moon",
+   "displayName": "Orla",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00006",
+   "username": "orla_moon",
+   "displayName": "Orlette",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00007",
+   "username": "brann_bows",
+   "displayName": "Brann",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00008",
+   "username": "ulmir_raids",
+   "displayName": "Ulmir",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00009",
+   "username": "draana_wow",
+   "displayName": "Draana",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00010",
+   "username": "morael_raids",
+   "displayName": "Morael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00011",
+   "username": "raldis_raids",
+   "displayName": "Raldis",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00012",
+   "username": "borwen_wow",
+   "displayName": "Borwen",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00013",
+   "username": "ellith_era",
+   "displayName": "Ellith",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00014",
+   "username": "ulric_era",
+   "displayName": "Ulric",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00015",
+   "username": "yorvor_classic",
+   "displayName": "Yorvor",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00016",
+   "username": "ulgorn_classic",
+   "displayName": "Ulgorn",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00017",
+   "username": "dramund_era",
+   "displayName": "Dramund",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00018",
+   "username": "garana_az",
+   "displayName": "Garana",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00019",
+   "username": "iskthas_era",
+   "displayName": "Iskthas",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00020",
+   "username": "draael_classic",
+   "displayName": "Draael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00021",
+   "username": "elael_raids",
+   "displayName": "Elael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00022",
+   "username": "fenric_era",
+   "displayName": "Fenric",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00023",
+   "username": "drathas_era",
+   "displayName": "Drathas",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00024",
+   "username": "gardan_az",
+   "displayName": "Gardan",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00025",
+   "username": "torvyn_raids",
+   "displayName": "Torvyn",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00026",
+   "username": "jorvor_era",
+   "displayName": "Jorvor",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00027",
+   "username": "yormund_era",
+   "displayName": "Yormund",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00028",
+   "username": "aelael_classic",
+   "displayName": "Aelael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00029",
+   "username": "vaewen_wow",
+   "displayName": "Vaewen",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00030",
+   "username": "ralric_raids",
+   "displayName": "Ralric",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00031",
+   "username": "dralith_era",
+   "displayName": "Dralith",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00032",
+   "username": "borgorn_classic",
+   "displayName": "Borgorn",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00033",
+   "username": "selvyn_az",
+   "displayName": "Selvyn",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00034",
+   "username": "zandor_az",
+   "displayName": "Zandor",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00035",
+   "username": "ulmund_classic",
+   "displayName": "Ulmund",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00036",
+   "username": "morthas_az",
+   "displayName": "Morthas",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00037",
+   "username": "fenael_wow",
+   "displayName": "Fenael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00038",
+   "username": "torael_wow",
+   "displayName": "Torael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00039",
+   "username": "halgorn_classic",
+   "displayName": "Halgorn",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00040",
+   "username": "ulthas_wow",
+   "displayName": "Ulthas",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00041",
+   "username": "fenvyn_raids",
+   "displayName": "Fenvyn",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00042",
+   "username": "nalael_era",
+   "displayName": "Nalael",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00043",
+   "username": "ralvor_az",
+   "displayName": "Ralvor",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00044",
+   "username": "aelmir_az",
+   "displayName": "Aelmir",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00045",
+   "username": "ralwen_era",
+   "displayName": "Ralwen",
+   "roles": [
+    "team:vanguard"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00046",
+   "username": "uldor_wow",
+   "displayName": "Uldor",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00047",
+   "username": "morlith_wow",
+   "displayName": "Morlith",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00048",
+   "username": "zanmund_wow",
+   "displayName": "Zanmund",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00049",
+   "username": "kelric_az",
+   "displayName": "Kelric",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00050",
+   "username": "vaeana_wow",
+   "displayName": "Vaeana",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00051",
+   "username": "kelana_wow",
+   "displayName": "Kelana",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00052",
+   "username": "gardis_wow",
+   "displayName": "Gardis",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00053",
+   "username": "pelmir_classic",
+   "displayName": "Pelmir",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00054",
+   "username": "quenvyn_az",
+   "displayName": "Quenvyn",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00055",
+   "username": "aelgorn_era",
+   "displayName": "Aelgorn",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00056",
+   "username": "garric_raids",
+   "displayName": "Garric",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00057",
+   "username": "zanise_raids",
+   "displayName": "Zanise",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00058",
+   "username": "orymund_raids",
+   "displayName": "Orymund",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00059",
+   "username": "haldan_raids",
+   "displayName": "Haldan",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00060",
+   "username": "nalvyn_az",
+   "displayName": "Nalvyn",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00061",
+   "username": "garvyn_raids",
+   "displayName": "Garvyn",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00062",
+   "username": "orythas_era",
+   "displayName": "Orythas",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00063",
+   "username": "nalmund_classic",
+   "displayName": "Nalmund",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00064",
+   "username": "eldis_classic",
+   "displayName": "Eldis",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00065",
+   "username": "oryric_az",
+   "displayName": "Oryric",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00066",
+   "username": "aelmund_wow",
+   "displayName": "Aelmund",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00067",
+   "username": "jorric_raids",
+   "displayName": "Jorric",
+   "roles": [
+    "team:ember"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00068",
+   "username": "wynlith_era",
+   "displayName": "Wynlith",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00069",
+   "username": "ulvyn_az",
+   "displayName": "Ulvyn",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00070",
+   "username": "garlith_az",
+   "displayName": "Garlith",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00071",
+   "username": "fendor_wow",
+   "displayName": "Fendor",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00072",
+   "username": "drador_classic",
+   "displayName": "Drador",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00073",
+   "username": "vaedan_raids",
+   "displayName": "Vaedan",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00074",
+   "username": "calric_raids",
+   "displayName": "Calric",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00075",
+   "username": "calise_era",
+   "displayName": "Calise",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_00076",
+   "username": "garmir_az",
+   "displayName": "Garmir",
+   "roles": [
+    "team:hearth"
+   ],
+   "joinedAt": "2026-09-10T18:00:00Z"
+  },
+  {
+   "discordId": "TEST_PIP",
+   "username": "pip_frost",
+   "displayName": "Pip",
+   "roles": [],
+   "joinedAt": "2026-09-14T21:00:00Z"
+  }
+ ],
+ "onboarding": {
+  "thorvik_fury": {
+   "claimed": "Thorvik",
+   "plays_with": [
+    "pip_frost"
+   ],
+   "review_opt_in": true,
+   "timezone": "America/New_York"
+  },
+  "pip_frost": {
+   "claimed": null,
+   "routed_to": "application"
+  }
+ },
+ "voice_presence": {
+  "event:vanguard-thu": {
+   "at_start": [
+    "dunmar_mt",
+    "ulmir_raids",
+    "draana_wow",
+    "morael_raids",
+    "maelis.heals",
+    "orla_moon",
+    "raldis_raids",
+    "borwen_wow",
+    "ellith_era",
+    "ulric_era",
+    "yorvor_classic",
+    "ulgorn_classic",
+    "dramund_era",
+    "garana_az",
+    "kessa_daggers",
+    "iskthas_era",
+    "draael_classic",
+    "elael_raids",
+    "fenric_era",
+    "drathas_era",
+    "gardan_az",
+    "torvyn_raids",
+    "jorvor_era",
+    "yormund_era",
+    "aelael_classic",
+    "vaewen_wow",
+    "ralric_raids",
+    "dralith_era",
+    "borgorn_classic",
+    "selvyn_az",
+    "zandor_az",
+    "ulmund_classic",
+    "morthas_az",
+    "fenael_wow",
+    "torael_wow",
+    "halgorn_classic",
+    "ulthas_wow",
+    "fenvyn_raids",
+    "nalael_era"
+   ],
+   "late": {
+    "thorvik_fury": "20:07"
+   }
+  }
+ }
+}

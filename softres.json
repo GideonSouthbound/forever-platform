@@ -1,0 +1,216 @@
+{
+ "raids": [
+  {
+   "raidId": "SR_TEST_NAXX_1",
+   "instance": "naxxramas",
+   "reservesPerPlayer": 2,
+   "reserves": [
+    {
+     "name": "Dunmar",
+     "class": "Warrior",
+     "item": "Ring of the Dreadnaught"
+    },
+    {
+     "name": "Ulmir",
+     "class": "Warrior",
+     "item": "Ring of the Dreadnaught"
+    },
+    {
+     "name": "Draana",
+     "class": "Warrior",
+     "item": "Shield of Condemnation"
+    },
+    {
+     "name": "Morael",
+     "class": "Druid",
+     "item": "Ring of the Dreadnaught"
+    },
+    {
+     "name": "Maelis",
+     "class": "Priest",
+     "item": "The Soul Harvester's Bindings"
+    },
+    {
+     "name": "Orla",
+     "class": "Druid",
+     "item": "Eye of Diminution"
+    },
+    {
+     "name": "Raldis",
+     "class": "Priest",
+     "item": "Ring of the Dreamwalker"
+    },
+    {
+     "name": "Borwen",
+     "class": "Priest",
+     "item": "Ring of the Dreamwalker"
+    },
+    {
+     "name": "Ellith",
+     "class": "Priest",
+     "item": "The Soul Harvester's Bindings"
+    },
+    {
+     "name": "Ulric",
+     "class": "Priest",
+     "item": "Wraith Blade"
+    },
+    {
+     "name": "Yorvor",
+     "class": "Paladin",
+     "item": "Ring of the Dreamwalker"
+    },
+    {
+     "name": "Ulgorn",
+     "class": "Paladin",
+     "item": "The Soul Harvester's Bindings"
+    },
+    {
+     "name": "Dramund",
+     "class": "Paladin",
+     "item": "Redemption Tunic"
+    },
+    {
+     "name": "Garana",
+     "class": "Druid",
+     "item": "Stormrage Cover"
+    },
+    {
+     "name": "Thorvik",
+     "class": "Warrior",
+     "item": "Deathbringer"
+    },
+    {
+     "name": "Kessa",
+     "class": "Rogue",
+     "item": "Bonescythe Breastplate"
+    },
+    {
+     "name": "Iskthas",
+     "class": "Warrior",
+     "item": "Dreadnaught Breastplate"
+    },
+    {
+     "name": "Draael",
+     "class": "Warrior",
+     "item": "Kiss of the Spider"
+    },
+    {
+     "name": "Elael",
+     "class": "Warrior",
+     "item": "The Hungering Cold"
+    },
+    {
+     "name": "Fenric",
+     "class": "Warrior",
+     "item": "Ring of the Dreadnaught"
+    },
+    {
+     "name": "Drathas",
+     "class": "Warrior",
+     "item": "The Hungering Cold"
+    },
+    {
+     "name": "Gardan",
+     "class": "Warrior",
+     "item": "Iblis, Blade of the Fallen Seraph"
+    },
+    {
+     "name": "Torvyn",
+     "class": "Warrior",
+     "item": "Deathbringer"
+    },
+    {
+     "name": "Jorvor",
+     "class": "Warrior",
+     "item": "Vis'kag the Bloodletter"
+    },
+    {
+     "name": "Yormund",
+     "class": "Rogue",
+     "item": "Vis'kag the Bloodletter"
+    },
+    {
+     "name": "Aelael",
+     "class": "Rogue",
+     "item": "Slayer's Crest"
+    },
+    {
+     "name": "Vaewen",
+     "class": "Rogue",
+     "item": "The Hungering Cold"
+    },
+    {
+     "name": "Ralric",
+     "class": "Rogue",
+     "item": "Kiss of the Spider"
+    },
+    {
+     "name": "Dralith",
+     "class": "Mage",
+     "item": "Wraith Blade"
+    },
+    {
+     "name": "Borgorn",
+     "class": "Mage",
+     "item": "Frostfire Robe"
+    },
+    {
+     "name": "Selvyn",
+     "class": "Mage",
+     "item": "Frostfire Robe"
+    },
+    {
+     "name": "Zandor",
+     "class": "Mage",
+     "item": "Netherwind Crown"
+    },
+    {
+     "name": "Ulmund",
+     "class": "Mage",
+     "item": "The Restrained Essence of Sapphiron"
+    },
+    {
+     "name": "Morthas",
+     "class": "Mage",
+     "item": "Frostfire Robe"
+    },
+    {
+     "name": "Fenael",
+     "class": "Warlock",
+     "item": "Wraith Blade"
+    },
+    {
+     "name": "Torael",
+     "class": "Warlock",
+     "item": "The Restrained Essence of Sapphiron"
+    },
+    {
+     "name": "Halgorn",
+     "class": "Warlock",
+     "item": "Band of Reanimation"
+    },
+    {
+     "name": "Ulthas",
+     "class": "Warlock",
+     "item": "Plagueheart Robe"
+    },
+    {
+     "name": "Fenvyn",
+     "class": "Hunter",
+     "item": "Dragonstalker's Helm"
+    },
+    {
+     "name": "Nalael",
+     "class": "Hunter",
+     "item": "Nerubian Slavemaker"
+    },
+    {
+     "name": "Kessa",
+     "class": "Rogue",
+     "item": "Kingsfall"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+# Warcraft Logs API v2 — reference queries for the PoC
+# Official docs: https://www.warcraftlogs.com/api/docs (OAuth flows, endpoints, rate limits, schema browser)
+# Host: $WCL_API_HOST (default https://vanilla.warcraftlogs.com/api/v2/client)
+# Auth: Bearer token from POST https://www.warcraftlogs.com/oauth/token (client_credentials)
+# If any field/argument below is rejected, run introspection and adapt — the live schema wins.
+
+# --- Rate limit (run before big jobs; stop at 85% of limitPerHour) ---
+query RateLimit {
+  rateLimitData { limitPerHour pointsSpentThisHour pointsResetIn }
+}
+
+# --- Job A: discover zones and encounters (never hardcode IDs) ---
+query Zones {
+  worldData {
+    zones { id name frozen encounters { id name } difficulties { id name } }
+  }
+}
+
+# --- Job B: ranked parses for one boss/spec/page (returns a JSON scalar) ---
+# metric: dps | hps | ... ; partition: omit for latest; page is 1-based, 100 rows/page.
+# The JSON contains: page, hasMorePages, count, rankings[] { name, class, spec, amount, duration,
+#   startTime, report { code, fightID, startTime }, guild { name }, server { name, region }, ... }
+query CharacterRankings($encounterID: Int!, $className: String, $specName: String, $page: Int) {
+  worldData {
+    encounter(id: $encounterID) {
+      name
+      characterRankings(className: $className, specName: $specName, metric: dps, page: $page, includeCombatantInfo: true)
+    }
+  }
+}
+
+# --- Job C/E: report structure (cache once per report) ---
+query ReportFights($code: String!) {
+  reportData {
+    report(code: $code) {
+      code title startTime endTime gameVersion
+      zone { id name }
+      fights(killType: Encounters) {
+        id encounterID name kill fightPercentage bossPercentage
+        startTime endTime size difficulty friendlyPlayers enemyNPCs { id gameID }
+      }
+      masterData(translate: true) {
+        actors { id name type subType server gameID }
+        abilities { gameID name type }
+      }
+    }
+  }
+}
+
+# --- Job E: guild players' rank percentiles per fight (JSON scalar) ---
+# Contains, per fight, per character: name, class, spec, rankPercent, amount, ...
+query ReportRankings($code: String!, $fightIDs: [Int]) {
+  reportData {
+    report(code: $code) {
+      rankings(playerMetric: dps, fightIDs: $fightIDs)
+    }
+  }
+}
+
+# --- Job C/E: events (paginate on nextPageTimestamp; pass it back as startTime) ---
+# dataType ∈ Casts | Buffs | Debuffs | DamageDone | DamageTaken | Healing | Deaths | CombatantInfo | Resources
+# sourceID = the player's actor id from masterData. For Debuffs on the player use targetID instead.
+query Events(
+  $code: String!, $fightIDs: [Int]!, $dataType: EventDataType!,
+  $sourceID: Int, $targetID: Int, $startTime: Float, $endTime: Float
+) {
+  reportData {
+    report(code: $code) {
+      events(
+        fightIDs: $fightIDs, dataType: $dataType,
+        sourceID: $sourceID, targetID: $targetID,
+        startTime: $startTime, endTime: $endTime,
+        limit: 10000, useAbilityIDs: true
+      ) { data nextPageTimestamp }
+    }
+  }
+}
+
+# --- Verification helper: casts table for one player (compare Melee count vs swing detection) ---
+query CastsTable($code: String!, $fightIDs: [Int]!, $sourceID: Int) {
+  reportData {
+    report(code: $code) {
+      table(dataType: Casts, fightIDs: $fightIDs, sourceID: $sourceID)
+    }
+  }
+}
+
+# --- Boss casts for a fight (for forced-movement windows and cascade attribution) ---
+# Use Events with dataType: Casts and sourceID = the boss actor id, hostilityType may be required:
+# events(..., hostilityType: Enemies). Check via introspection.
+
+# --- Guild reports for auto-attach (public API; guildID from the team's WCL guild) ---
+query GuildReports($guildID: Int!, $startTime: Float, $endTime: Float, $page: Int) {
+  reportData {
+    reports(guildID: $guildID, startTime: $startTime, endTime: $endTime, page: $page, limit: 25) {
+      data { code title startTime endTime zone { id name } owner { name } }
+      has_more_pages
+    }
+  }
+}
+
+# --- Account linking (PRIVATE API: https://www.warcraftlogs.com/api/v2/user, authorization-code flow) ---
+# Used by the platform (not the PoC) to resolve a member's characters and guilds after they link WCL.
+query CurrentUser {
+  userData {
+    currentUser {
+      id name
+      guilds { id name server { name region { compactName } } }
+      characters { id name classID server { name region { compactName } } }
+    }
+  }
+}

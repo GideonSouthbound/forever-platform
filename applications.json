@@ -1,0 +1,42 @@
+{
+ "applications": [
+  {
+   "team": "hearth",
+   "discord": "pip_frost",
+   "character": "Pip",
+   "class": "Mage",
+   "spec": "Frost",
+   "availability": {
+    "Sat": "14:00-23:00",
+    "Sun": "14:00-22:00"
+   },
+   "log_profile_url": "https://vanilla.warcraftlogs.com/character/us/whitemane/FILL_ME",
+   "answers": {
+    "why": "Thorvik's brother-in-law; wants to raid with him on weekends.",
+    "experience": "Levelled a mage in Era; a few UBRS pugs."
+   },
+   "expected_screen": {
+    "spec": "Frost",
+    "median_percentile": 41,
+    "kills_logged": 12,
+    "avoidable_deaths_per_10_pulls": 2
+   }
+  },
+  {
+   "team": "vanguard",
+   "discord": "sylvaric_wow",
+   "character": "Sylvaric",
+   "class": "Priest",
+   "spec": "Holy",
+   "availability": {
+    "Tue": "19:00-23:00",
+    "Thu": "19:00-23:00"
+   },
+   "log_profile_url": "",
+   "answers": {
+    "why": "Vanguard needs a healer per the team page."
+   },
+   "expected_screen": null
+  }
+ ]
+}

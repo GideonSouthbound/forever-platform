@@ -1,0 +1,46 @@
+{
+  "_readme": "Strat JSON authored by officers (v1) and later by the editor. Coordinates are 0-1000 on a schematic room drawn by officers; never Blizzard map art. Tokens are roles or named special seats from boss_guides.special_seats. Renderer interpolates positions between keyframes within a phase.",
+  "encounter": "Example Boss",
+  "patch": "forever-1.0",
+  "version": 1,
+  "layout": {
+    "shapes": [
+      { "type": "polygon", "points": [[100,100],[900,100],[900,700],[100,700]], "label": "Boss room" },
+      { "type": "circle", "cx": 500, "cy": 400, "r": 60, "label": "Boss", "style": "boss" },
+      { "type": "polygon", "points": [[100,700],[300,700],[300,900],[100,900]], "label": "Safe pocket", "style": "safe" }
+    ]
+  },
+  "tokens": [
+    { "id": "tank1", "kind": "tank", "label": "MT" },
+    { "id": "tank2", "kind": "tank", "label": "OT" },
+    { "id": "melee", "kind": "melee", "count": 12 },
+    { "id": "ranged", "kind": "ranged", "count": 14 },
+    { "id": "healers", "kind": "healer", "count": 10 },
+    { "id": "ba", "kind": "special", "seat": "Burning Adrenaline handler", "criticality": "high" }
+  ],
+  "phases": [
+    {
+      "name": "Pull",
+      "duration_s": 20,
+      "callouts": [ { "t": 0, "text": "MT pulls to the wall; ranged stack at 30 yd" } ],
+      "keyframes": [
+        { "t": 0, "positions": { "tank1": [560,400], "tank2": [450,420], "melee": [520,470], "ranged": [500,650], "healers": [480,600], "ba": [500,650] } },
+        { "t": 20, "positions": { "tank1": [780,400], "melee": [740,470] } }
+      ]
+    },
+    {
+      "name": "Burning Adrenaline",
+      "duration_s": 15,
+      "callouts": [ { "t": 0, "text": "BA target runs to the safe pocket; healers keep it topped", "lethality_rank": 1 } ],
+      "keyframes": [
+        { "t": 0, "positions": { "ba": [500,650] } },
+        { "t": 8, "positions": { "ba": [200,800] } }
+      ]
+    }
+  ],
+  "reminders": [
+    "Never be in front of the boss unless you are a tank.",
+    "BA target: run out immediately, you will die; make it count away from the raid.",
+    "Ranged: 30 yd, spread 5 yd for the breath."
+  ]
+}

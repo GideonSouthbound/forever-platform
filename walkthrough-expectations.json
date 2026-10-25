@@ -1,0 +1,133 @@
+{
+ "roster_import": {
+  "creates": 76,
+  "errors": 0,
+  "reimport_creates": 0,
+  "duplicates": 0
+ },
+ "onboarding": {
+  "thorvik_fury": {
+   "auto_claimed": "Thorvik",
+   "review_opt_in": true
+  },
+  "pip_frost": {
+   "routed_to": "application"
+  }
+ },
+ "placement": {
+  "pip_and_thorvik_same_team_saturday": true,
+  "brann_off_high_criticality_seat": true,
+  "hearth_margin_pct_range": [
+   0,
+   4
+  ]
+ },
+ "raid_create": {
+  "steps_recorded": 5,
+  "softres_step": "skipped (softres_mode=fixture)",
+  "needs_attention": [
+   "sr_link"
+  ],
+  "resolved_by_fixture": "SR_TEST_NAXX_1"
+ },
+ "signups": {
+  "accepted": 38,
+  "tentative": 2,
+  "bench": 3
+ },
+ "attunement": {
+  "vanguard_onyxia_readiness": {
+   "attuned": 40,
+   "of": 43
+  },
+  "stuck_list": {
+   "Upper Blackrock Spire": [
+    "Ralvor"
+   ],
+   "Blackrock Depths": [
+    "Ralwen"
+   ]
+  },
+  "seat_blocked": {
+   "character": "Aelmir",
+   "template": "Ony 40",
+   "reason_contains": [
+    "Drakefire Amulet",
+    "Questline started"
+   ]
+  },
+  "per_character": {
+   "Orla": "attuned",
+   "Orlette": "not_started"
+  },
+  "after_officer_verify": {
+   "character": "Ralvor",
+   "seat_allowed": true,
+   "readiness": {
+    "attuned": 41,
+    "of": 43
+   }
+  }
+ },
+ "walls": {
+  "other_faction_blocked": true,
+  "other_ruleset_blocked": true,
+  "note": "the test inserts one Horde character and one character on another ruleset (set teams.ruleset for the test); neither can be seated on a Vanguard event, and each refusal shows a reason"
+ },
+ "lockout_guard": {
+  "flagged": true,
+  "note": "the test inserts a lockouts row for one seated character, same zone and week; the roster builder flags it"
+ },
+ "loot_sheet": {
+  "Deathbringer": {
+   "first": "Thorvik",
+   "reason_contains": [
+    "SR",
+    "attendance",
+    "no loot"
+   ]
+  },
+  "flags": [
+   {
+    "name": "Kessa",
+    "item": "Kingsfall",
+    "reason": "already worn (gear from log)"
+   }
+  ]
+ },
+ "close_out": {
+  "late": [
+   "thorvik_fury"
+  ],
+  "awards": 4,
+  "thorvik_wishlist_received": "Deathbringer"
+ },
+ "review_thorvik_onyxia": {
+  "percentile": 68,
+  "band": "50-74",
+  "next_band": "75-94",
+  "gap_points": 11,
+  "swings": {
+   "actual": 118,
+   "expected": 137,
+   "efficiency": 0.86,
+   "lost_unexplained": 19,
+   "parries": 4
+  },
+  "focus_items_max": 3,
+  "plain_paragraph": {
+   "sentences": [
+    3,
+    5
+   ],
+   "numbers_max": 1
+  },
+  "note": "Numbers come from the sample review; with a real Era report they will differ \u2014 assert shapes and rules, and assert the specific numbers only against the recorded fixture used in poc/tests."
+ },
+ "lethality": {
+  "cascade_detected_from_wipe": true
+ },
+ "digest": {
+  "vanguard_open_roles_contains": "healer"
+ }
+}

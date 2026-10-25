@@ -1,0 +1,12 @@
+{
+  "_readme": "Match by aura NAME from CombatantInfo at fight start (case-insensitive, rank suffix ignored). Categories drive consumes_missing_expected and world_buffs_count. Extend freely; IDs are intentionally omitted so nothing breaks across patches.",
+  "categories": {
+    "flask_elixir": ["Flask of the Titans", "Flask of Supreme Power", "Flask of Distilled Wisdom", "Elixir of the Mongoose", "Elixir of Giants", "Greater Arcane Elixir", "Elixir of Shadow Power", "Elixir of Greater Firepower", "Mageblood Potion", "Elixir of Superior Defense", "Elixir of Fortitude"],
+    "food": ["Blessed Sunfruit", "Blessed Sunfruit Juice", "Grilled Squid", "Smoked Desert Dumplings", "Nightfin Soup", "Runn Tum Tuber Surprise", "Dirge's Kickin' Chimaerok Chops"],
+    "juju": ["Juju Power", "Juju Might", "Juju Chill", "Juju Ember", "Juju Flurry"],
+    "weapon": ["Instant Poison", "Deadly Poison", "Elemental Sharpening Stone", "Dense Sharpening Stone", "Brilliant Wizard Oil", "Brilliant Mana Oil"],
+    "misc_strength_ap": ["Winterfall Firewater", "R.O.I.D.S.", "Ground Scorpok Assay", "Gordok Green Grog", "Rumsey Rum Black Label", "Spirit of Zanza", "Swiftness of Zanza"],
+    "protection_potion": ["Greater Frost Protection Potion", "Greater Fire Protection Potion", "Greater Shadow Protection Potion", "Greater Nature Protection Potion", "Greater Arcane Protection Potion"],
+    "world_buff": ["Rallying Cry of the Dragonslayer", "Warchief's Blessing", "Spirit of Zandalar", "Songflower Serenade", "Sayge's Dark Fortune of Damage", "Sayge's Dark Fortune of Strength", "Mol'dar's Moxie", "Fengus' Ferocity", "Slip'kik's Savvy", "Boon of Blackfathom", "Traces of Silithyst"]
+  }
+}

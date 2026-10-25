@@ -1,0 +1,23 @@
+{
+ "_readme": "Fill in PUBLIC Classic Era report codes (vanilla.warcraftlogs.com) and map test characters to real player names in those reports. The test-env ingest applies log_name_map BEFORE matching by character name. Choose a Naxx report with Patchwerk, Loatheb, Thaddius kills and at least one wipe.",
+ "reports": [
+  {
+   "code": "FILL_ME_1",
+   "team": "vanguard",
+   "note": "Naxx kills + wipes for lethality"
+  },
+  {
+   "code": "FILL_ME_2",
+   "team": "vanguard",
+   "note": "Onyxia kill (for the Thorvik review)"
+  }
+ ],
+ "log_name_map": {
+  "Thorvik": "<Fury Warrior in report>",
+  "Kessa": "<Combat Rogue in report>",
+  "Dunmar": "<Prot Warrior tank in report>",
+  "Maelis": "<Holy Priest in report>",
+  "Orla": "<Resto Druid in report>"
+ },
+ "gear_fixture_note": "CombatantInfo from FILL_ME_2 populates gear_sets; for the SR sanity-check expectation, ensure Kessa's mapped player is wearing Kingsfall, or edit fixtures/softres.json."
+}

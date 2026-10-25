@@ -1,0 +1,384 @@
+{
+ "_readme": "Module A W6 fixture. Load after the roster import. Characters without a progress row (every non-Vanguard character, including Orlette, Orla's alt) have not started. Step labels are illustrative placeholders for the Classic Era test; FOREVER's Onyxia row is seeded from Blizzard's 20 Oct 2026 raid overview and officers fill in the live quest steps.",
+ "attunements": [
+  {
+   "patch": "classic_era",
+   "zone": "Onyxia's Lair",
+   "name": "Drakefire Amulet",
+   "faction": "Alliance",
+   "scope": "character",
+   "requirement": "Drakefire Amulet in bags (need not be equipped)",
+   "steps": [
+    {
+     "key": "start",
+     "label": "Questline started",
+     "group_step": false,
+     "location": null,
+     "final": false
+    },
+    {
+     "key": "brd",
+     "label": "Blackrock Depths step",
+     "group_step": true,
+     "location": "Blackrock Depths",
+     "final": false
+    },
+    {
+     "key": "drakkisath",
+     "label": "General Drakkisath",
+     "group_step": true,
+     "location": "Upper Blackrock Spire",
+     "final": false
+    },
+    {
+     "key": "amulet",
+     "label": "Drakefire Amulet in bags",
+     "group_step": false,
+     "location": null,
+     "final": true
+    }
+   ]
+  },
+  {
+   "patch": "classic_era",
+   "zone": "Onyxia's Lair",
+   "name": "Drakefire Amulet",
+   "faction": "Horde",
+   "scope": "character",
+   "requirement": "Drakefire Amulet in bags (need not be equipped)",
+   "steps": [
+    {
+     "key": "start",
+     "label": "Questline started",
+     "group_step": false,
+     "location": null,
+     "final": false
+    },
+    {
+     "key": "skulls",
+     "label": "Test of Skulls step",
+     "group_step": true,
+     "location": "open world",
+     "final": false
+    },
+    {
+     "key": "drakkisath",
+     "label": "General Drakkisath",
+     "group_step": true,
+     "location": "Upper Blackrock Spire",
+     "final": false
+    },
+    {
+     "key": "amulet",
+     "label": "Drakefire Amulet in bags",
+     "group_step": false,
+     "location": null,
+     "final": true
+    }
+   ]
+  }
+ ],
+ "progress": [
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Dunmar",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "officer"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ulmir",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Draana",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Morael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Maelis",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "officer"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Orla",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Raldis",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Borwen",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ellith",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ulric",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Yorvor",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ulgorn",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Dramund",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Garana",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Thorvik",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Kessa",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Iskthas",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Draael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Elael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Fenric",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Drathas",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Gardan",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Torvyn",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Jorvor",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Yormund",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Aelael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Vaewen",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ralric",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Dralith",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Borgorn",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Selvyn",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Zandor",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ulmund",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Morthas",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Fenael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Torael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Halgorn",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ulthas",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Fenvyn",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Nalael",
+   "step": "amulet",
+   "status": "attuned",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ralvor",
+   "step": "drakkisath",
+   "status": "in_progress",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Aelmir",
+   "step": "start",
+   "status": "in_progress",
+   "source": "self"
+  },
+  {
+   "attunement": "Drakefire Amulet",
+   "character": "Ralwen",
+   "step": "brd",
+   "status": "in_progress",
+   "source": "self"
+  }
+ ]
+}

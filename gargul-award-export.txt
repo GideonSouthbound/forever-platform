@@ -1,0 +1,6 @@
+# ILLUSTRATIVE award export — replace with a real Gargul export string/CSV; the gargul adapter parses by header row.
+# columns: date,character,item,method,note
+2026-09-17,Thorvik,Deathbringer,sr_roll,won roll 87 vs 62
+2026-09-17,Maelis,Ring of the Dreamwalker,sr_roll,uncontested SR
+2026-09-17,Kessa,Kiss of the Spider,roll,ms roll 94
+2026-09-17,Dunmar,Glyph of Deflection,priority,tank priority
